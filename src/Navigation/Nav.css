@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    border-bottom: 2px solid #f3f3f3;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    z-index: 999;
+    margin-left: 2rem;
+}
+
+.nav-container{
+    padding: 30px;
+}
+.nav-container input{
+    width: 250px;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 0 0 0 10px;
+    border: none;
+    background-color: rgb(240, 235, 235);
+    border-radius: 10px; 
+}
+
+.profile-container{
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.profile-container a{
+    font-size: 2rem;
+}
